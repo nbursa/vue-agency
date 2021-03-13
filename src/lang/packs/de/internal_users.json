@@ -1,0 +1,9 @@
+{
+  "table_column_0": "ID",
+  "table_column_1": "Name",
+  "table_column_2": "E-Mail",
+  "table_column_3": "Handynummer",
+  "table_column_4": "Rolle",
+  "filter_advanced_0": "Rolle",
+  "filter_advanced_1": "Sektor"
+}

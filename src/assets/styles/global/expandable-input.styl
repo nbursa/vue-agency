@@ -1,0 +1,48 @@
+.input-label-group
+  margin-bottom 1.8em
+  .control-label
+    top 1rem
+  .control-label
+    padding-left 20px
+    padding-top 5px
+  input.is-expandable
+    padding-left 20px
+    padding-top 18px
+    height 68px
+    border 1px solid #DFE6EB
+    border-radius 3px
+    &.is-danger
+      border 1px solid red
+  input.is-disabled
+    background-color #F8FAFC
+    color #2F3439
+  input
+    &:disabled
+      ~.control-label
+          font-size 13px
+  input.is-expandable:required ~ span.req-attribute
+    position absolute
+    padding 0 3px
+    font-size 0
+    // font-size 9px // BUG doesn't work for some reason, font should be smaller
+    color white
+    top 0
+    right 0
+    width 0
+    height 0
+    border-left 7px solid #4A72FF
+    border-top 7px solid transparent
+    border-bottom 7px solid transparent
+    transform rotate(-45deg)
+    display block
+    transition width .4s
+    text-indent -1000px
+    &:hover
+      border 1px solid grey
+      background-color #4A72FF
+      transform rotate(0deg)
+      font-size smaller
+      width 80px
+      height auto
+      text-indent 0
+      text-align center

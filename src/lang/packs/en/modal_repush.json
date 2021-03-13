@@ -1,0 +1,11 @@
+{
+    "modal_title": "Re-push jobs",
+    "repush_label": "Re-push",
+    "cancel_label": "Cancel",
+    "header_date": "Date",
+    "header_time": "Time",
+    "header_client": "Client",
+    "header_type": "Type",
+    "header_pushed": "Pushed",
+    "success_message": "Re-push successful!"
+}

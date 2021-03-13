@@ -1,0 +1,16 @@
+{
+  "daily_title" : "Tagesübersicht",
+  "monthly_title": "Monatsübersicht",
+  "today": "Heute",
+  "this_month": "Dieser Monat",
+  "all_workers": "Alle Mitarbeiter",
+  "candidates_working": "Arbeiten",
+  "candidates_not_working": "Arbeiten nicht",
+  "candidates_on_sick_leave": "Krank",
+  "candidates_on_holiday": "Frei",
+  "unavailable_candidates": "Nicht verfügbar",
+  "job": "Job",
+  "jobs": "Jobs",
+  "see_jobs": "Arbeitsstellen anzeigen",
+  "no_data": "Keine Daten vorhanden"
+}

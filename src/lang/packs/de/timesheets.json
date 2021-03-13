@@ -1,0 +1,19 @@
+{
+  "table_column_0": "Schicht-ID",
+  "table_column_1": "Schicht-Status",
+  "table_column_2": "Datum Verschiebung",
+  "table_column_3": "Schichtzeit",
+  "table_column_4": "Kategorie",
+  "table_column_5": "Kunde/Standort",
+  "table_column_6": "Kandidat Name",
+  "table_column_7": "Pausen gemacht",
+  "table_column_8": "Total Stunden",
+  "table_column_9": "Varianz",
+  "table_column_10": "Abzgezeichnet von",
+  "table_column_11": "Position",
+  "has_variance": "Mit Varianz zeigen",
+  "no_variance": "Ohne Abweichung anzeigen",
+  "net_hours": "Netto zahlbare Stunden",
+  "client_timesheet_send": "Stundenzettel senden!",
+  "client_timesheet_error": "Es gab einen Fehler! Timesheet not sent."
+}

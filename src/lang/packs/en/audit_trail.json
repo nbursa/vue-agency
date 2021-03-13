@@ -1,0 +1,21 @@
+{
+  "title": "Audit Trail", 
+  "from": "from",
+  "to": "to",
+  "job": "Job",
+  "placeholder": "No changes",
+  "updated": "updated",
+  "created": "created",
+  "sign_off": "sign off",
+  "approved": "approved",
+  "canceled": "canceled",
+  "arbitrated": "arbitrated",
+  "admin_signed_off": "admin signed off",
+  "position_request_sent": "position request sent",
+  "started": "started",
+  "sign_off_reminder_sent": "sign off reminder sent",
+  "accepted": "changed",
+  "temp_signed_off": "temp signed off",
+  "reassigned": "reassigned",
+  "bonuses_updated": "bonuses updated"
+}  

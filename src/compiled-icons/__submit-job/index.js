@@ -1,0 +1,13 @@
+/* eslint-disable */
+require('./add-rounded')
+require('./cancel-light-rounded')
+require('./cancel-round')
+require('./client-icon')
+require('./clock-icon')
+require('./eye')
+require('./job-template-icon')
+require('./save-template')
+require('./search')
+require('./selected')
+require('./trash-alt')
+require('./user')

@@ -1,0 +1,11 @@
+{
+    "modal_title": "Jobs erneut pushen",
+    "repush_label": "Erneut drücken",
+    "cancel_label": "Stornieren",
+    "header_date": "Datum",
+    "header_time": "Zeit",
+    "header_client": "Klient",
+    "header_type": "Art",
+    "header_pushed": "Geschoben",
+    "success_message": "Re-Push erfolgreich!"
+}

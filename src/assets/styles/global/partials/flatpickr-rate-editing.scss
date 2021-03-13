@@ -1,0 +1,120 @@
+$display-small-desktop: 1200px;
+
+.pay-rates__calendar {
+  .flatpickr-calendar {
+    margin: 0 auto;
+  }
+  .flatpickr-month {
+    height: 50px;
+    margin-top: 1em;
+    @media (max-width: $display-small-desktop) {
+      font-size: 12px;
+    }
+  }
+  .flatpickr-calendar {
+    width: 100%;
+    box-shadow: none;
+  }
+  .flatpickr-prev-month svg,
+  .flatpickr-next-month svg {
+    width: 10px;
+    height: 10px;
+  }
+  .flatpickr-prev-month:hover svg,
+  .flatpickr-next-month:hover svg {
+    fill: #000;
+  }
+  .flatpickr-current-month {
+    left: 0;
+    width: 200px;
+    padding-left: 0.8em;
+    font-size: 150%;
+    text-align: left;
+    @media (max-width: $display-small-desktop) {
+      padding-left: 0;
+      font-size: 16px;
+    }
+    .cur-month {
+      color: #2c4b5c;
+      font-weight: 600;
+    }
+    .cur-year {
+      font-weight: 400;
+    }
+  }
+  .flatpickr-prev-month {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-left: 75%;
+    height: 30px;
+    width: 30px;
+    padding: 0.6em 0 0 0;
+    overflow: hidden;
+    @media (max-width: $display-small-desktop) {
+      width: 15px;
+      margin: 0;
+      right: 20px;
+      left: auto;
+    }
+  }
+  .flatpickr-next-month {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    height: 30px;
+    width: 30px;
+    margin-right: 3%;
+    padding: 0.6em 0 0 0;
+    overflow: hidden;
+    @media (max-width: $display-small-desktop) {
+      width: 15px;
+      margin: 0;
+    }
+  }
+  .flatpickr-rContainer {
+    margin-top: 2em;
+    padding: 1em;
+    width: 100%;
+    margin: 0 auto;
+    @media (max-width: $display-small-desktop) {
+      padding: 0;
+    }
+  }
+  .flatpickr-days {
+    width: 100%;
+  }
+  .flatpickr-day {
+    margin: 0.4em 0;
+    max-width: 100px;
+    @media (max-width: $display-small-desktop) {
+      font-size: 13px;
+      height: 29px;
+      line-height: 29px;
+      margin: 2px 0;
+    }
+  }
+  .dayContainer {
+    max-width: 100%;
+    min-width: inherit;
+    width: 100% !important;
+  }
+  span.flatpickr-weekday {
+    color: #0ca6bd;
+    font-size: 14px;
+    @media (max-width: $display-small-desktop) {
+      font-size: 12px;
+    }
+  }
+
+  .flatpickr-wrapper {
+    width: 100%;
+
+    input {
+      font-weight: bold;
+      width: 100%;
+      font-family: Aileron !important;
+      max-width: 100% !important;
+      height: 30px;
+      text-align: center;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
+  }
+}

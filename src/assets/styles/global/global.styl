@@ -1,0 +1,284 @@
+@import 'variables'
+@import 'mixins'
+@import 'grid'
+@import 'colors'
+@import 'fonts'
+
+html
+  height 100%
+  overflow-y auto
+body
+  min-height 100%
+  font-family $font-regular
+  background-color: #f3f6f7
+::-ms-clear {
+  display: none;
+}
+input[type=text],
+textarea {
+    // -moz-appearance: ;
+    -webkit-appearance: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+}
+
+#app
+  //font-family TBA
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+
+a
+  color $primary
+
+pre.debug
+  background: transparent
+pre.debug:hover,
+pre.debug:focus
+  width: min-content
+  color: red
+
+.is-full
+  width 100%
+
+.validatorDisabled
+  pointer-events none
+  opacity 0.5
+
+.required
+  label
+    &:after
+      content "*"
+      color red
+
+.is-relative {
+  position: relative;
+}
+
+
+.is-disabled {
+  pointer-events: none;
+  opacity: 0.5;  
+}
+
+//Svg default style
+.svg-icon
+    display inline-block
+    width 16px
+    height 16px
+    color inherit
+    vertical-align middle
+    fill none
+    stroke currentColor
+.svg-image
+  display block
+  width 100%
+  height 100%
+  color inherit
+  vertical-align middle
+  fill none
+  stroke currentColor
+  &.default-action
+    max-height 600px
+
+
+.svg-fill
+    fill currentColor
+    stroke none
+
+.svg-up
+    transform rotate(0deg)
+
+.svg-right
+    transform rotate(90deg)
+
+.svg-down
+    transform rotate(180deg)
+
+.svg-left
+    transform rotate(-90deg)
+
+//Global scroll style
+::-webkit-scrollbar-track{
+  background-color white
+  margin-right 5px
+
+}
+::-webkit-scrollbar{
+  width 8px
+
+}
+::-webkit-scrollbar-thumb{
+  background-color #EBEBEB
+  border-radius 25px
+  margin-right 5px
+  border-right: 5px solid transparent
+
+}
+
+
+//Global transitions
+.base-slide-out-enter-active,
+.base-slide-out-leave-active {
+  transition: all 0.3s;
+  max-height: 230px;
+}
+.base-slide-out-enter,
+.base-slide-out-leave-to
+{
+  opacity: 0;
+  max-height: 0px;
+}
+
+
+
+
+
+.search-filters {
+  background-color: white;
+  .columns {
+    .vue-treeselect {
+      &--has-value {
+        .vue-treeselect__control {
+          border: 1px solid #4F7BFF;
+
+          &:hover {
+            border-color: #4F7BFF !important;
+          }
+        }
+      }
+      &__control {
+        .vue-treeselect__placeholder {
+          line-height 2.5
+        }
+      }
+    }
+  }
+}
+
+.vue-treeselect {
+  &__x-container{
+    position: relative;
+    z-index: 1;
+  }
+  &__multi-value-item-container{
+      padding-right: 15px;
+    }
+  &__control{
+    &:hover{
+      border-color: #DFE6EB !important;
+    }
+  }
+  &--open {
+    .vue-treeselect__control-arrow-container{
+      &:after{
+        transform: translate(-50%, -50%) rotate(-45deg)
+        margin-top: 0;
+      }
+    }
+  }
+  &__menu{
+    border: 1px solid #DFE6EB;
+    box-shadow: none !important;
+  }
+  &__control-arrow-container{
+    position:relative;
+    width: 18px;
+    &:after{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      content:'';
+      width: 5px;
+      height: 5px;
+      border-width: 1px 1px 0 0;
+      border-color: rgba(black, .4);
+      border-style: solid;
+      transform: translate(-50%, -50%) rotate(135deg)
+      margin-top: -2px;
+      @supports (-ms-ime-align:auto) {
+        top:14px;
+      }
+    }
+    svg{
+      display: none;
+    }
+  }
+}
+
+&.agency__dropdown{
+  .vue-treeselect__control-arrow-container{
+    &:after{
+      @supports (-ms-ime-align:auto) {
+        top:18px;
+      }
+    }
+  }
+}
+
+.on-boarding-content-box{
+  min-width 660px
+}
+
+.notifications{
+  z-index 999999 !important;
+}
+
+.rotate-screen-info{
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(9,20,26, .85);
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+  @media screen and (max-device-width: 1360px) and (orientation: portrait){
+      display: flex;
+  }
+  &__inner{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    svg{
+      margin-bottom: 40px;
+    }
+    p{
+      font-size: 26px;
+      line-height: 32px;
+      opacity .7;
+      color:white;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+  }
+}
+
+
+input[type=number] {
+  &::-webkit-outer-spin-button, &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  -moz-appearance:textfield;
+}
+#hubspot-messages-iframe-container {
+  z-index: 9999 !important;
+  @media(min-width: $display-tablet-portrait) {
+    left: -30px;
+  }
+}
+
+// font helper class
+
+.font-regular {
+  font-family: $font-regular
+  }
+.font-semi-bold {
+  font-family: $font-semi-bold
+  }
+.font-bold {
+  font-family: $font-bold
+  }

@@ -1,0 +1,86 @@
+.login {
+  .section {
+    margin-top: 150px;
+  }
+  .is-info,
+  .is-danger {
+    font-size: 16px;
+    color: #000000;
+    padding: 15px;
+  }
+
+
+  .has-forgot {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    a {
+      color: $primary;  
+      font-weight: bold;
+      font-size: 13px;
+    }
+  }
+
+  .is-default-button {
+    margin: 45px 0px 0px 0px;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primary;
+    border-radius: 8px;
+  }
+
+  input {
+    border: 1px solid $primaryGray;
+    background-color: white !important;
+    padding: 10px;
+    font-size: 16px;
+    &.email {
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom: none;
+    }
+    &.password {
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+  }
+
+  .is-disabled {
+    background: $primaryGray;  
+  }
+
+  .info-label {
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    line-height: 16px;  
+    margin-bottom: 15px;
+  }
+
+
+}
+
+.control {
+  >input.base-auth-input {
+    border-radius: 8px;
+    border: 1px solid $primaryGray;
+    background-color: white !important;
+    padding: 10px;
+    font-size: 16px;
+}
+}
+
+.icon {
+  .svg-icon {
+    height: 1.5em;
+    width: 1.5em;
+    top: auto;
+  }
+}

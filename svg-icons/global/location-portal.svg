@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="37" viewBox="0 0 42 37" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="b" width="957" height="433" rx="4"/>
+    <filter id="a" width="101.5%" height="103.2%" x="-.7%" y="-1.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0670572917 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="d" width="360" height="400" rx="3"/>
+    <filter id="c" width="108.9%" height="108%" x="-4.4%" y="-3.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0857393569 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-378 -248)">
+    <rect width="1440" height="1954" x="-1" y="-295" fill="#F1F3F6" opacity=".75"/>
+    <g transform="translate(241 197)">
+      <use fill="black" filter="url(#a)" xlink:href="#b"/>
+      <use fill="#FFFFFF" xlink:href="#b"/>
+      <path stroke="#979797" d="M1,68 L884.500141,68" opacity=".3" stroke-linecap="square"/>
+    </g>
+    <g transform="translate(360 86)">
+      <use fill="black" filter="url(#c)" xlink:href="#d"/>
+      <use fill="#FFFFFF" xlink:href="#d"/>
+      <g transform="translate(19 162)">
+        <circle cx="22.5" cy="18.5" r="18.5" fill="#2197F1" fill-rule="nonzero" opacity=".448"/>
+        <g stroke-width="2.2" transform="translate(0 4)" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="#40476A" d="M11.5,28.9071782 C11.5,28.9071782 0.0982905983,21.0234024 0.0982905983,11.8256638 C0.0982906921,5.29453011 5.20300984,1.76216123e-07 11.5,1.76216123e-07 C17.7969902,1.76216123e-07 22.9017093,5.29453011 22.9017094,11.8256638 C22.9017094,21.0234024 11.5,28.9071782 11.5,28.9071782 Z"/>
+          <ellipse cx="11.5" cy="11.826" stroke="#41466B" rx="4.117" ry="3.942"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

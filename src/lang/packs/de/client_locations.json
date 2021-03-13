@@ -1,0 +1,12 @@
+{
+  "panel_title": "Erstellen und fügen Sie Kunden oder Einsatzorte entsprechend Ihrer Unternehmenshierarchie hinzu",
+  "button_add": "Neuen Kunden hinzufügen",
+  "button_add_location": "Neuen Kunden Admin hinzufügen",
+  "filter_tab_0": "Kunden",
+  "filter_tab_1": "Kunden Admin",
+  "table_column_0": "ID",
+  "table_column_1": "Name",
+  "table_column_2": "E-Mail",
+  "table_column_3": "Handynummer",
+  "table_column_4": "Benutzerrolle"
+}

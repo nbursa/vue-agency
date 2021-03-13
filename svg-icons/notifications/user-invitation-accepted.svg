@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="37" viewBox="0 0 43 37" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <polygon id="a" points="23.457 17.177 22 18.689 27.102 23.606 35.46 15.508 33.999 14 27.098 20.685"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4)">
+    <circle cx="20.5" cy="18.5" r="18.5" fill="#A7EA9C" fill-rule="nonzero" opacity=".7"/>
+    <rect width="27" height="16" x="-1" y="11" stroke="#3F4869" stroke-width="2" rx="1"/>
+    <circle cx="4" cy="19" r="2" fill="#3F4869"/>
+    <path stroke="#3F4869" stroke-width="2" d="M16 17L9 17M21 21L9 21"/>
+    <g fill-rule="nonzero">
+      <use fill="#40476A" fill-rule="evenodd" xlink:href="#a"/>
+      <path stroke="#C1F1B8" d="M27.096912,19.9900002 L34.0099628,13.2929823 L36.1670178,15.5196197 L27.1026124,24.3007623 L21.2930144,18.7024225 L23.444173,16.4700881 L27.096912,19.9900002 Z"/>
+    </g>
+  </g>
+</svg>

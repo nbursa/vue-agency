@@ -1,0 +1,12 @@
+{
+  "panel_title": "Create and add Clients / Locations according to your company hierarchy",
+  "button_add": "Add New Client",
+  "button_add_location": "Add new Client Admin",
+  "filter_tab_0": "Clients",
+  "filter_tab_1": "Client admins",
+  "table_column_0": "ID",
+  "table_column_1": "Name",
+  "table_column_2": "Email",
+  "table_column_3": "Mobile phone",
+  "table_column_4": "Role"
+}

@@ -1,0 +1,15 @@
+{
+  "button_add_new": "Add new User",
+  "button_user": "User",
+  "toast_success": "User saved!",
+  "toast_error": "There was an error, please try again!",
+  "default_title": "Internal users info",
+  "form_first_name": "First Name",
+  "form_last_name": "Last Name",
+  "form_email": "Email",
+  "form_phone": "Mobile phone",
+  "form_role": "Role",
+  "form_agency": "Branch",
+  "toast_invite": "User invited!",
+  "default_text": "Internal Users are people that work in your organisation. Click one and edit their information, or add a new one with the button above."
+}

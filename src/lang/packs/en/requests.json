@@ -1,0 +1,14 @@
+{
+  "table_column_0": "ID",
+  "table_column_1": "Created",
+  "table_column_2": "Type",
+  "table_column_3": "Name",
+  "filter_tab_0": "Candidates",
+  "filter_tab_1": "Requests",
+  "holiday": "Holiday",
+  "sick_leave": "Sick Leave",
+  "unavailable": "Unavailable",
+  "switch_message": "Change request type",
+  "default_title": "The holiday, illness and unavailability requests tab allows you to see all the holiday, illness or unavailability requests you have received.",
+  "default_text": "You can browse through all requests, click on them in order to see the details, and respond to them, all from the same page."
+}

@@ -1,0 +1,66 @@
+/* Page layout */
+.wrapper
+  display grid
+  grid-template-rows 70px calc(100vh - 70px)
+  grid-template-columns 65px 1fr
+  grid-template-areas "header header"\
+                      "sidebar content"
+
+  &__sidebar
+      grid-area sidebar
+      z-index 9999
+
+  &__content
+      grid-area content
+      overflow-y auto
+      background-color #F2F6F7
+      &::-webkit-scrollbar
+        display none
+  &__header
+      grid-area header
+
+/*Main content layout*/
+.main-container
+  overflow hidden
+  display grid
+  justify-content end
+  height calc(100vh - 70px)
+  grid-template-rows 100px 1fr
+  grid-template-columns 1fr 1fr
+  grid-template-areas "main-view actions"\
+                      "main-view actions"
+
+  &.drag
+    display grid
+  &.press,
+  &.collapsed
+    display block
+
+  &__main-view
+    grid-area main-view
+
+  &__actions
+    grid-area actions
+    background-color #fff
+    overflow: hidden;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.14);
+    z-index: 2;
+    &.press
+      position absolute
+      right 0
+      overflow visible
+      width 10px
+      top 70px
+      height calc(100vh - 70px)
+
+
+  .main-container--overflow
+      height 92vh
+      overflow-y auto
+      &::-webkit-scrollbar
+        display none
+
+
+
+
+

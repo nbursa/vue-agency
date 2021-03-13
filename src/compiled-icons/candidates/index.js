@@ -1,0 +1,11 @@
+/* eslint-disable */
+require('./back')
+require('./delete')
+require('./documents')
+require('./holiday')
+require('./message')
+require('./send-message')
+require('./share')
+require('./sick-leave')
+require('./unavailable')
+require('./upload-csv')

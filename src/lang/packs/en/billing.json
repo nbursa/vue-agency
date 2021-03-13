@@ -1,0 +1,22 @@
+{
+  "filters_tab_0": "Shifts",
+  "filters_tab_1": "Invoices",
+  "filters_advanced_client": "Client /Location",
+  "shifts_column_0": "ID",
+  "shifts_column_1": "Date",
+  "shifts_column_2": "Shift Time",
+  "shifts_column_3": "Location/Client",
+  "shifts_column_4": "Candidate",
+  "invoices_column_0":"ID",
+  "invoices_column_1": "Created At",
+  "invoices_column_2": "To",
+  "invoices_column_3": "Client",
+  "invoices_column_4": "Invoice No.",
+  "invoices_column_5": "Job Count",
+  "date_today": "Today",
+  "empty_msg": "Please select a client/location to view invoices.",
+  "date_tomorrow": "Tomorrow",
+  "date_this_week": "This week",
+  "date_next_week": "Next week",
+  "create_invoice": "Create Invoice?"
+}

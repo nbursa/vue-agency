@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>drag-normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="drag-normal">
+            <g id="Drag">
+                <rect id="area" x="0" y="0" width="24" height="24"></rect>
+                <rect id="Rectangle" fill="#D3D9DE" x="7" y="3" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-Copy-5" fill="#D3D9DE" x="7" y="10" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-Copy-7" fill="#D3D9DE" x="7" y="17" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-Copy-6" fill="#D3D9DE" x="14" y="10" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-Copy-8" fill="#D3D9DE" x="14" y="17" width="4" height="4" rx="1"></rect>
+                <rect id="Rectangle-Copy-4" fill="#D3D9DE" x="14" y="3" width="4" height="4" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

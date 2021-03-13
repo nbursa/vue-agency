@@ -1,0 +1,16 @@
+{
+  "daily_title": "Daily overview",
+  "monthly_title": "Monthly graph",
+  "today": "Today",
+  "this_month": "This Month",
+  "all_workers": "All workers",
+  "candidates_working": "Working",
+  "candidates_not_working": "Not working",
+  "candidates_on_sick_leave":  "On Sick Leave",
+  "candidates_on_holiday": "On Holiday",
+  "unavailable_candidates": "Unavailable",
+  "job": "Job",
+  "jobs": "Jobs",
+  "see_jobs": "See Jobs",
+  "no_data": "No data to show"
+}

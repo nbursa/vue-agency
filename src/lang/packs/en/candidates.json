@@ -1,0 +1,15 @@
+{
+  "table_column_0": "ID",
+  "table_column_1": "Name",
+  "table_column_2": "Email",
+  "table_column_3": "Mobile phone",
+  "table_column_4": "Actions",
+  "filter_tab_0": "Candidates",
+  "filter_tab_1": "Requests",
+  "filter_tab_3": "Candidate Pools",
+  "drawer_filter_job": "Category",
+  "drawer_filter_branch": "Branch",
+  "profile_link": "Details",
+  "status_verified": "Show verified only",
+  "status_unverified": "Show unverified only"
+}

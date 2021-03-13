@@ -1,0 +1,105 @@
+@import '~@/assets/styles/global/variables';
+#submit-job-calendar {
+  .submit-job-calendar{
+}
+
+  .flatpickr-month {
+    height:50px;
+    margin-top:1em;
+  }
+  .flatpickr-calendar {
+    width:100%;
+    box-shadow:none;
+
+  }
+  .flatpickr-prev-month svg, .flatpickr-next-month svg {
+    width:10px;
+    height:10px;
+  }
+  .flatpickr-prev-month:hover svg, .flatpickr-next-month:hover svg {
+    fill: #000;
+  }
+  .flatpickr-weekdays{
+
+  }
+  .flatpickr-current-month {
+    left: 0;
+    width:220px;
+    // padding-left:0.8em;
+    font-size:160%;
+    text-align:left;
+    @media (max-width: $display-small-desktop) {
+      padding-left: 6px;
+      font-size: 16px;
+    }
+    .cur-month {
+      color:#2C4B5C;
+      font-weight:700;
+    }
+    .cur-year {
+      font-weight:200;
+    }
+  }
+  .flatpickr-prev-month {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    margin-left:83%;
+    height:30px;
+    width:30px;
+    padding: 0.6em 0 0 0;
+    overflow:hidden;
+  }
+  .flatpickr-next-month {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    height:30px;
+    width:30px;
+    // margin-right:3%;
+    padding: 0.6em 0 0 0;
+    overflow:hidden;
+  }
+  .flatpickr-rContainer{
+    margin-top:2em;
+    padding:0;
+    width:100%;
+    margin:0 auto;
+  }
+  .flatpickr-days{
+    width:100%;
+  }
+  .flatpickr-day{
+    margin:0.4em 2%;
+    max-width:100px;
+    font-weight: 600;
+    width: 10.2857143%;
+    flex-basis: 10.2857143%;
+    height: 2.75vw;
+    max-height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0625rem;
+    @media (max-width: $display-small-desktop) {
+      font-size: 13px;
+      height: 29px;
+      line-height: 29px;
+    }
+    &.today {
+      border: 2px solid #3391F5;
+    }
+  }
+  .disabled {
+    color:#cccccc
+  }
+  .dayContainer {
+    max-width: 100%;
+    min-width: inherit;
+    width: 100% !important;
+  }
+  span.flatpickr-weekday{
+    color: #0CA6BD;
+    font-size:14px;
+    @media (max-width: $display-small-desktop) {
+      font-size: 12px;
+    }
+  }
+}
+

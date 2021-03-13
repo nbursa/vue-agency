@@ -1,0 +1,12 @@
+{
+  "page_title": "Kategorie-Details",
+  "sector": "Zweig",
+  "job_type": "Kategorie",
+  "client_location": "Einsatzort",
+  "num_candidates": "Anzahl der Mitarbeiter",
+  "candidate_attr": "Attribute der Mitarbeiter",
+  "time_date": "Zeit und Datum",
+  "textfield_label": "Anmerkung",
+  "textfield_placeholder": "Zusätzliche Informationen können Sie hier vermerken.",
+  "bonuses": "Bonuszahlungen"
+}

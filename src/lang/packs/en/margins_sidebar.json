@@ -1,0 +1,13 @@
+{
+  "header": "Filter and update your margins",
+  "view": "View special margins",
+  "filter_label": "Choose your criteria",
+  "calculator_label": "Select margin type",
+  "converter_label": "Enter rate or total charge",
+  "rate": "Rate",
+  "charge": "Charge",
+  "action_button_0": "Reset",
+  "action_button_1": "Filter",
+  "action_button_2": "Update",
+  "remove_button": "Delete Rate"
+}

@@ -1,0 +1,17 @@
+{
+  "header": "Filter and update your rates",
+  "day_type": "Day type",
+  "shift_time": "Shift time",
+  "job_type": "Category",
+  "area": "Area",
+  "grade": "Grade",
+  "client": "Client",
+  "hourly_rate": "Hourly Pay Rate",
+  "daily_rate": "Daily Pay Rate",
+  "button_reset": "Reset",
+  "button_filter": "Filter",
+  "button_update": "Update",
+  "button_publish": "Publish",
+  "cal_label": "Select rates publish time",
+  "submit_err": "Rate field must have a value!"
+}

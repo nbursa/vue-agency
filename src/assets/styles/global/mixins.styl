@@ -1,0 +1,26 @@
+// Breakpoint generator
+$display-breakpoints = {
+  phone: $display-phone,
+  tabletPortrait: $display-tablet-portrait,
+  tabletLandscape: $display-tablet-landscape,
+  smallDesktop: $display-small-desktop,
+  largeDesktop: $display-large-desktop
+}
+media($breakpoint-name)
+    if map-has-key($display-breakpoints, $breakpoint-name)
+      @media (min-width: (interpolation nil map_get($grid-breakpoints, $breakpoint-name) nil))
+        {block}
+    else
+      @error
+
+
+//Placeholder style
+placeholder()
+	&::-webkit-input-placeholder
+		{block}
+	&:-moz-placeholder
+		{block}
+	&::-moz-placeholder
+		{block}
+	&:-ms-input-placeholder
+		{block}

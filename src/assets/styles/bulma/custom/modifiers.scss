@@ -1,0 +1,10 @@
+//Class modifier inclusions and overrides
+$colors_extended: (
+  "primary": (
+    $cs-primary-start, findColorInvert($cs-primary-start)
+  ),
+  "testcase": (
+    $cs-primary-start, findColorInvert($cs-primary-start)
+  )
+);
+$colors: map-merge($colors, $colors_extended);

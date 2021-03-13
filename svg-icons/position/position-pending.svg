@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="b" width="948.13" height="38.2" x=".935" y="196.65" rx="4"/>
+    <filter id="a" width="103.1%" height="175.9%" x="-1.5%" y="-32.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" in="shadowBlurOuter1"/>
+    </filter>
+    <circle id="c" cx="2" cy="2" r="2"/>
+    <circle id="d" cx="8" cy="2" r="2"/>
+    <circle id="e" cx="14" cy="2" r="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-916 -469)">
+    <rect width="1440" height="900" fill="#EFF3F4" opacity=".75"/>
+    <g transform="translate(74 262)">
+      <use fill="black" filter="url(#a)" xlink:href="#b"/>
+      <use fill="#FFFFFF" xlink:href="#b"/>
+      <g transform="translate(843 208)">
+        <path stroke="#849ED4" stroke-width="1.4" d="M13.5,6.13636364 C13.5,10.9090909 8,15 8,15 C8,15 2.5,10.9090909 2.5,6.13636364 C2.50000005,2.74734362 4.96243391,9.14389435e-08 8,9.14389437e-08 C11.0375661,9.14389438e-08 13.5,2.74734362 13.5,6.13636364 L13.5,6.13636364 Z" opacity=".5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g transform="translate(0 4)">
+          <use fill="#849ED4" xlink:href="#c"/>
+          <circle cx="2" cy="2" r="2.5" stroke="#FFFFFF"/>
+          <use fill="#849ED4" xlink:href="#d"/>
+          <circle cx="8" cy="2" r="2.5" stroke="#FFFFFF"/>
+          <g>
+            <use fill="#849ED4" xlink:href="#e"/>
+            <circle cx="14" cy="2" r="2.5" stroke="#FFFFFF"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

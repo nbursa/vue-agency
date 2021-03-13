@@ -1,0 +1,12 @@
+{
+  "page_title": "Category Details",
+  "sector": "Branch",
+  "job_type": "Category",
+  "client_location": "Client/Location",
+  "num_candidates": "Number of Candidates",
+  "candidate_attr": "Candidate Attributes",
+  "time_date": "Time and Date",
+  "textfield_label": "Note",
+  "textfield_placeholder": "Write any additional information about the shift here.",
+  "bonuses": "Bonuses"
+}

@@ -1,0 +1,1 @@
+export const getSelectedRole = state => state.roleSelected

@@ -1,0 +1,15 @@
+{
+  "dashboard":"Dashboard",
+  "jobschedule":"Job Schedule",
+  "timesheets": "Timesheets",
+  "billing":"Finance",
+  "clients":"Clients / Locations",
+  "candidates":"Candidates",
+  "nocandidates":"No candidate",
+  "documents":"Documents & Compliance",
+  "agency":"Settings",
+  "rates": "Rate Editing",
+  "users": "Internal Users",
+  "reporting": "Reporting",
+  "absenceOverview": "Absences Overview"
+}

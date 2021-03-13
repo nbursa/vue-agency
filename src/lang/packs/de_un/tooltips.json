@@ -1,0 +1,35 @@
+{
+  "job_submit": {
+    "add_job": "Klicken Sie hier, um eine neue Stelle zu schaffen",
+    "switcher_teamview": "Stellenangebote nach Teammitglied anzeigen",
+    "switcher_clientview": "Stellenangebote nach Kunde/Standort anzeigen",
+    "switcher_calendar": "Stellenangebote in einem Kalender anzeigen",
+    "switcher_table": "Stellenangebote in einer Liste anzeigen",
+    "switcher_timesheet": "Schicht-Zeitliste anzeigen",
+    "add_to_pool": "Erstellen Sie eine Vakanz, die dann später herausgedrückt oder zugewiesen werden kann",
+    "find_candidates": "Erstellen Sie eine Auswahlliste geeigneter Kandidaten und bieten Sie ihnen Stellen an",
+    "crossover": "Die Schicht endet am nächsten Tag",
+    "linked_jobs": "Verwenden Sie dies, wenn die Kandidaten alle Verschiebungen des Stellenangebots akzeptieren müssen",
+    "re_push": "Stellenangebot an verfügbare Kandidaten weiterleiten"
+  },
+  "main_navbar": {
+    "dashboard":"Dashboard",
+    "jobschedule":"Einsatzplaner",
+    "billing":"Finanzen",
+    "clients":"Kunden und Einsatzorte",
+    "candidates":"Kandidaten",
+    "documents":"Dokumente & Compliance",
+    "agency":"Unternehmensstruktur",
+    "rates": "Tarifrechner",
+    "users": "Interne Benutzer",
+    "reporting": "Reporting",
+    "absenceOverview": "Abwesenheitsübersicht"
+  },
+  "rate_editing": {
+    "hourly_switch": "Stündlicher Marge",
+    "daily_switch": "Tägliche Marge"
+  },
+  "settings": {
+    "attributes": "Fügen Sie mindestens einen Wert hinzu, um dieses Attribut zum Senden von Jobs zu verwenden"
+  }
+}

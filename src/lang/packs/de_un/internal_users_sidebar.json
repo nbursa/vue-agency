@@ -1,0 +1,15 @@
+{
+  "button_add_new": "Neuen Benutzer hinzufügen",
+  "button_user": "Benutzer",
+  "toast_success": "Benutzer gespeichert!",
+  "toast_error": "Fehlermeldung. Bitte versuchen Sie es erneut!",
+  "default_title": "Interne Benutzer Info",
+  "form_first_name": "Vorname",
+  "form_last_name": "Nachname",
+  "form_email": "E-Mail",
+  "form_phone": "Handynummer",
+  "form_role": "Rolle",
+  "form_agency": "Sektor",
+  "toast_invite": "Benutzer eingeladen!",
+  "default_text": "Interne Benutzer sind Ihre hausinternen Mitarbeiter. Indem Sie auf einen Mitarbeiter klicken, können Sie Informationen bearbeiten oder neue Mitarbeiter mit Hilfe des Buttons oben anlegen."
+}

@@ -1,0 +1,30 @@
+{
+  "email": "E-Mail",
+  "password": "Passwort",
+  "pwdagain": "Passwort wiederholen",
+  "newpwd": "Geben Sie Ihr neues Passwort ein",
+  "pwdverbose": "Passwort erneut eingeben",
+  "choosenew": "Neues Passwort eingeben",
+  "forgotpwd": "Passwort vergessen?",
+  "login": "Login",
+  "aboutus": "Über uns",
+  "terms": "AGB",
+  "faq": "FAQ",
+  "help": "Hilfe",
+  "subtitle": "Besseres Arbeiten",
+  "resetsubtitle": "Haben Sie Probleme beim Anmelden?",
+  "resettext": "Geben Sie Ihre E-Mail-Adresse ein und Sie erhalten ein neues Passwort in Ihrem Posteingang.",
+  "send": "Senden",
+  "reset": "Zurücksetzen",
+  "entercodetxt": "Wir haben einen 6-stelligen Code an Ihr Telefon gesendet.",
+  "entercode": "Code eingeben",
+  "rememberme": "Login speichern",
+  "didentget": "Sie haben keinen Code erhalten?",
+  "resend": "Erneut Senden",
+  "accept": "Annehmen",
+  "inviteModal": {
+    "text": "Sie können jetzt die Realday-App im Store herunterladen.",
+    "appstore": "Anzeigen im Apple App Store",
+    "playstore": "Im Google Play Store anzeigen"
+  }
+}

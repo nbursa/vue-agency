@@ -1,0 +1,464 @@
+@import "../colors"
+@import '../variables'
+// ::-webkit-scrollbar
+//     display none
+.right-sidebar-container
+  background-color #fff
+  display flex
+  height: 100%
+.right-sidebar
+  position relative
+  width 100%
+  height 100%
+  header
+    height auto
+    min-height fit-content
+    width 100%
+    align-items center
+    overflow hidden
+    border-bottom 1px solid rgba(151,151,151, 0.2)
+    margin-bottom 1em
+    background-color #fff
+    z-index 2
+  .sidebar-overflow
+    overflow-y auto
+    padding-bottom 20rem
+    height calc(100vh - 130px)
+  .sidebar-control
+    justify-content flex-end
+    align-items center
+    display flex
+    padding 0.8em
+    min-height 48px
+    &__title 
+      font-size 1.125em
+      padding 0.225em 0.65em
+      color $fontDark
+    &__tab-nav 
+      display flex
+      align-items center
+      justify-content flex-start
+    &__tab-item 
+      cursor pointer
+      display inline-block
+      color $fontGray
+      font-size 0.9375em
+      padding-bottom 9px
+      padding-top 4px
+      &:not(:first-child)
+        margin-left 31px
+      &:hover 
+        color $primary
+      &--is-active 
+        color $primary
+        font-weight 600
+        border-bottom 2px solid $primary
+
+    &--align-left 
+      justify-content flex-start
+    &.level-path
+      box-shadow 1px 2px 4px 0 rgba(0,0,0,0.08)
+      width 100%
+      justify-content flex-start
+    .is-tmpst-info
+      height 40px
+      border-radius 3px
+      background linear-gradient(225deg, #4687FF 0%, #4E5C6F 100%)
+      color white
+      display flex
+      justify-content space-between
+      padding 0 22.5px
+      border 0
+      transition: box-shadow .25s ease
+      &:hover{
+        box-shadow 0 10px 15px 0 rgba(0, 0, 0, 0.1)
+      }
+      @media (max-width: $display-small-desktop) {
+        padding 0 15px
+        font-size: 15px;
+      }
+  .sidebar-control-tab
+    padding 0.5em 1em
+    border-top 1px solid #ddd
+    text-align center
+    display flex
+    justify-content center
+    align-items center
+    &--tab-cont
+      padding-bottom 0
+    a
+      color #CB1B1B
+    .svg-icon
+      margin-bottom 5px
+    .btn {
+      height 30px
+      &:nth-child(2) {
+        margin-left 20px
+      }
+    }
+  section
+    .default-content
+      padding 6em 0em 2em 2em
+      @media (max-width: $display-small-desktop) {
+        padding 5em 0em 2em 1em
+      }
+      h2
+        margin-top 0.4em
+        margin-bottom 1em
+        padding-right 1.5em
+        color #000
+      p
+        color #848693
+        margin-bottom 3em
+        padding-right 1.5em
+      img
+        width 100%
+  .sidebar-content
+    p
+      color #808080
+      width 70%
+      margin 0 auto
+      font-size 15px
+      line-height 20px
+  .sidebar-type-picker
+    height 84vh
+  .sidebar-jobtypes
+    padding 1em
+    &.not-selected
+      ul
+        clear both
+        li
+          float left
+          width 100%
+          .sidebar-jobtypes_tab
+            margin-top 1em
+            border 1px solid #DFE6EB
+            border-radius 3px
+            padding 0.7em 1em
+            float left
+            width 100%
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .dot{
+              min-width 6px;
+            }
+          ul
+            a
+              font-size 14px
+              font-weight 100
+          a
+            position relative
+            top 2px
+            color #000
+            font-weight 400
+          input
+            margin-right: 1em
+    &.selected
+      overflow hidden
+      margin-bottom 10em
+      ul
+        clear both
+        li
+          background-color #f3f4f5
+          padding 1em 1em
+          margin-top 1em
+          position relative
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          @media (max-width: $display-small-desktop) {
+            font-size: 14px;
+          }
+          &:hover
+            cursor pointer
+          div{
+            margin-right: 5px;
+          }
+          .remove
+            margin-right: 0
+            .svg-icon
+              color $red
+  .sidebar-footer
+    position absolute
+    width calc(100% - 40px)
+    z-index 1
+    bottom 50px
+    margin 0px 20px
+    padding 1em 1em 1em 1em
+    box-shadow 0 2px 6px 0 rgba(0,0,0,0.2)
+    background-color $secondary
+    border-radius  6px
+    transition all 0.3s ease
+    display flex
+    flex-direction column
+    > span {
+      opacity 0.6
+      color #FFFFFF
+      font-family Aileron//"Nunito Sans"
+      font-size 16px
+      letter-spacing 0
+      line-height 22px
+      margin-bottom 20px
+    }
+    .is-pulled-right {
+      width 100%
+      display flex
+      justify-content space-between
+      align-items center
+    }
+    &-title
+      position relative
+      top 0.2em
+      color #fff
+      opacity 0.6
+      margin-bottom 20px
+      margin-left 10px
+    &-bottom
+      width 100%
+      display flex
+      justify-content space-between
+      align-items center
+      .btn {
+        height 40px
+        padding 0
+        min-width 80px
+        max-width calc(50% - 1em)
+      }
+      .cancel-btn 
+        background-image none
+        background-color transparent
+      @media (max-width: $display-small-desktop) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between
+        margin-top: 20px;
+        .is-cancelled{
+          padding: 0;
+        }
+      }
+  .sidebar-footer-flex
+    display flex
+    justify-content space-between
+    flex-wrap wrap
+    >span
+      display inline-block
+  .sidebar-footer-centered
+    position absolute
+    width 100%
+    z-index 8
+    bottom 0
+    padding 1em 1em 1em 1em
+    box-shadow 0px -3px 6px 0 rgba(0,0,0,0.15)
+    background-color #fff
+    display flex
+    flex-wrap wrap
+    justify-content center
+    align-items center
+    &__content
+      display: flex;
+      flex-wrap wrap
+      justify-content center
+      align-items center
+      max-width 350px
+
+
+  .is-cancelled
+    border none
+    height 30px
+    color #fff
+    background none
+    margin 0
+    padding 0 10px
+  .is-tmpst-info
+    height 30px
+    border-radius 3px
+    background-image linear-gradient(225deg, $primary 0%, $primaryLight 50%, $primaryLight 50%,  $secondary 100% )
+    color white
+    justify-content space-between
+    padding 0 30px
+    border 0
+    transition: box-shadow .25s ease
+    &:hover{
+      box-shadow 0 10px 15px 0 rgba(0, 0, 0, 0.1)
+    }
+  .sidebar-form
+    z-index 2
+    .border-line
+      margin-top 1em
+      margin-bottom 1em
+      border-top 1px solid #f1f1f1
+      width 100%
+      float left
+    .sidebar-form_field
+      padding 0.4em 1em 0 1em
+      width 100%
+      float left
+      position relative
+      overflow hidden
+      &.is-disable{
+        input{
+          opacity .55;
+        }
+      }
+      .help
+        position relative
+        width 70%
+        height 15px
+        display block
+        float right
+        text-align right
+      a
+        position relative
+        top 0.4em
+      .sidebar-form_attributes
+        clear both
+        overflow hidden
+        .attribute
+          background-image url('~@/assets/icons/tag.svg')
+          background-repeat no-repeat
+          background-size 100% 30px
+          height 30px
+          padding 0.6em 0.5em 0.5em 1.5em
+          width 150px
+          float left
+          text-align center
+          border-radius 3px
+          margin-top 0.4em
+          font-size 12px
+          cursor pointer
+          font-weight 700
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          position relative
+          &:hover
+            .close
+              display block
+          .close
+            position absolute
+            right 0
+            top -6px
+            display none
+            .icon
+              color #CB1B1B
+      textarea
+        height 66px
+        width: 100%;
+        max-width 357px;
+        border 1px solid #979797
+        opacity 0.4
+        border-radius 2px
+        padding 0.5em
+        resize none
+      .sidebar-form_textarea-info
+        min-height: 40px;
+        height: 100%;
+        max-width: 60%;
+        float: right;
+
+      .sidebar-form_small-float {
+        @media (max-width: $display-small-desktop) {
+          float: left
+          width: 100%;
+        }
+      }
+      .sidebar-form_label
+        float left
+        min-width 40%
+        font-size 13px
+        color $gray
+        padding-top 0.7em
+        transition 0.4s
+        @media (max-width: $display-small-desktop) {
+          min-width: 100%;
+          padding-top 0.4em
+        }
+        &.is-active
+          color #000
+          transition: 0.4s;
+      .sidebar-form_clear
+        height 30px
+        text-align right
+        justify-content flex-end
+        float right
+        padding-top 0.8em
+        font-size 12px
+        transition 0.4s
+        font-weight 700
+      .sidebar-form_info
+        height 30px
+        text-align center
+        background-color #efefef
+        border-radius 3px
+        width 150px
+        justify-content flex-end
+        float right
+        padding 0.5em
+        font-size 12px
+        transition 0.4s
+        font-weight 700
+      .highlighted
+        background-color #f3e8af
+      .sidebar-form_text
+        height 100px
+        resize none
+        padding-top 0.5em
+        font-size 16px
+        transition 0.4s
+        width 100%
+        border none
+      .flatpickr{
+        width: 60%;
+        float left;
+        @media (max-width: $display-small-desktop) {
+          width: 100%;
+        }
+        input{
+          height 40px
+          border-radius: 3px;
+          padding: 0.5em;
+          font-size: 16px;
+          color: #404040;
+          max-width:inherit;
+          @media (max-width: $display-small-desktop) {
+            width: 100%;
+            max-width: inherit;
+          }
+        }
+        }
+      .sidebar-form_input
+        height 40px
+        justify-content flex-end
+        border-radius 3px
+        border 1px solid $WFdarkGray
+        float right
+        padding 0.5em
+        font-size 16px
+        transition 0.4s
+        position relative
+
+        &:focus
+          outline none
+          border 1px solid $lightBlue
+          transition 0.4s
+        &.is-small
+          width 30%
+          @media (max-width: $display-small-desktop) {
+            width: 100%;
+          }
+        &.is-fullwidth
+          width 60%
+          @media (max-width: $display-small-desktop) {
+            width: 100%;
+            font-size: 14px;
+          }
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

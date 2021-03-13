@@ -1,0 +1,14 @@
+{
+  "jobId": "Kategorie-ID",
+  "jobStatus": "Kategorie-Status",
+  "date": "Datum",
+  "timeFrom": "Zeit - von",
+  "timeTo": "Zeit - bis",
+  "totalTime": "Gesamtzeit",
+  "client": "Einsatzort",
+  "candidate": "Mitarbeiter",
+  "jobType": "Kategorie",
+  "cancelLabel": "Möchten Sie",
+  "cancelButton": "Diese Kategorie löschen?",
+  "signOff": "Abmelden"
+}

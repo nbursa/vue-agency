@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="119" viewBox="0 0 160 119">
+  <g fill="#CACCCC" fill-rule="evenodd">
+    <g transform="translate(0 35)">
+      <polygon points="42.105 25.2 84.211 84 0 84"/>
+      <polygon points="96.842 0 160 84 33.684 84"/>
+    </g>
+    <path d="M30.5,21 C36.2989899,21 41,16.2989899 41,10.5 C41,4.70101013 36.2989899,0 30.5,0 C24.7010101,0 20,4.70101013 20,10.5 C20,16.2989899 24.7010101,21 30.5,21 Z"/>
+  </g>
+</svg>

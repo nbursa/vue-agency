@@ -1,0 +1,21 @@
+{
+  "title": "Audit Trail",
+  "from": "von",
+  "to": "bis",
+  "job": "Arbeit",
+  "placeholder": "Keine Änderungen",
+  "updated": "aktualisiert",
+  "created": "erstellt",
+  "sign_off": "sich abmelden",
+  "approved": "genehmigt",
+  "canceled": "storniert",
+  "arbitrated": "geschlichtet",
+  "admin_signed_off": "admin abgezeichnet",
+  "position_request_sent": "positionsanfrage gesendet",
+  "started": "gestartet",
+  "sign_off_reminder_sent": "abmeldeerinnerung gesendet",
+  "accepted": "geändert",
+  "temp_signed_off": "aushilfe abgezeichnet",
+  "reassigned": "neu zugewiesen",
+  "bonuses_updated": "boni aktualisiert"
+}

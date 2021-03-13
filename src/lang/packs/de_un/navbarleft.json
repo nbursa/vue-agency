@@ -1,0 +1,15 @@
+{
+  "dashboard":"Dashboard",
+  "jobschedule":"Einsatzplaner",
+  "timesheets": "Zeitblätter",
+  "billing":"Finanzen",
+  "clients":"Bereiche und Einsatzorte",
+  "candidates":"Mitarbeiter",
+  "nocandidates":"Keine Mitarbeiter",
+  "documents":"Dokumente & Compliance",
+  "agency":"Unternehmensstruktur",
+  "rates": "Tarifrechner",
+  "users": "Interne Benutzer",
+  "reporting": "Reporting",
+  "absenceOverview": "Abwesenheitsübersicht"
+}

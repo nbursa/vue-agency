@@ -1,0 +1,75 @@
+//Input movable label style
+$font-size ?= 1.125rem
+$active-font-size ?= ($font-size * 0.73)
+$active-top ?= -0.2 * $font-size
+// Colors
+$input-color ?= #555
+$border-color ?= #444
+$label-color ?= lighten($input-color, 10%)
+$active-color ?= darken($border-color, 0%)
+$focus-color ?= #444
+$error-color ?= #d9534f
+//Spacers
+$gap ?= $font-size * 1.5
+$spacer ?= $font-size / 8
+$fieldset-margin ?= 0 0 $gap
+$checkbox-gap ?= $font-size * 2
+$checkbox-top ?= 0
+$radio-margin ?= $font-size / -4
+
+// Animation
+$transition-speed ?=  0.28s
+
+.input-label-group
+  position relative
+  margin-top ($gap * 0.5)
+  margin-bottom ($gap * 0.5)
+  input
+    margin-top: 10px
+    font-family: Aileron //"Nunito Sans"
+    height: ($font-size * 1.9)
+    display: block
+    background: none
+    padding: $spacer $spacer ($spacer / 2)
+    font-size: $font-size
+    border-width: 0
+    border-color: transparent
+    line-height: 1.9
+    width: 100%
+    color: transparent
+    transition: all $transition-speed ease
+    outline none
+    box-shadow: none
+  .control-label
+    position: absolute
+    top: ($font-size / 4)
+    pointer-events: none
+    padding-left: $spacer
+    z-index: 1
+    color: $label-color
+    font-size: $font-size
+    font-weight: normal
+    transition: all $transition-speed ease
+  input:focus,
+  input:valid,
+  input.has-value
+    color: $input-color
+    ~.control-label
+      font-size: $active-font-size
+      color: $active-color
+      top: $active-top
+      left: 0
+
+  input
+    &:focus
+      outline: none
+      ~.control-label
+        color: $focus-color
+  input
+    &:disabled
+      ~.control-label
+        font-size: $active-font-size
+        color: $active-color
+        top: $active-top
+        left: 0
+

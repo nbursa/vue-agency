@@ -1,0 +1,19 @@
+{
+  "table_column_0": "Shift ID",
+  "table_column_1": "Shift status",
+  "table_column_2": "Shift date",
+  "table_column_3": "Shift time",
+  "table_column_4": "Category",
+  "table_column_5": "Client/Location",
+  "table_column_6": "Candidate name",
+  "table_column_7": "Breaks taken",
+  "table_column_8": "Total hours",
+  "table_column_9": "Variance",
+  "table_column_10": "Signed off by",
+  "table_column_11": "Position",
+  "has_variance": "Show with variance",
+  "no_variance": "Show without variance",
+  "net_hours": "Net payable hours",
+  "client_timesheet_send": "Timesheet Send!",
+  "client_timesheet_error": "There was an error! Timesheet not sent."
+}

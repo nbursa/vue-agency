@@ -1,0 +1,10 @@
+@import "custom/bulma-override";
+@import "~bulma/bulma";
+
+.panel-heading {
+  font-weight: 400
+}
+
+.table {
+  background-color: transparent;
+}

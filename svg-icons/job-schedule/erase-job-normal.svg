@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="24" height="24"/>
+    <path stroke="#CC2D2D" stroke-width="1.2" d="M10,3.4 L10,11.8 C10,12.4627417 9.36040679,13 8.57142857,13 L1.42857143,13 C0.639593215,13 0,12.4627417 0,11.8 L0,3.4 M2.14285714,2.4 L2.14285714,1.2 C2.14285714,0.5372583 2.78245036,0 3.57142857,0 L6.42857143,0 C7.21754964,0 7.85714286,0.5372583 7.85714286,1.2 L7.85714286,2.4" transform="translate(7 5)" stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke="#CC2D2D" stroke-width="1.2" d="M6.5,7.5 L17.5,7.5" stroke-linecap="round"/>
+  </g>
+</svg>

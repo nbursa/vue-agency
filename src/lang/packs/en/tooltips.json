@@ -1,0 +1,35 @@
+{
+  "job_submit": {
+    "add_job": "Click here to create a new job",
+    "switcher_teamview": "View jobs by team member",
+    "switcher_clientview": "View jobs by client/location",
+    "switcher_calendar": "View jobs on a calendar",
+    "switcher_table": "View jobs in a list",
+    "switcher_timesheet": "View shift timesheet",
+    "add_to_pool": "Create a vacancy that can then be pushed out or assigned later",
+    "find_candidates": "Create a shortlist of suitable candidates and offer them jobs",
+    "crossover": "Shift ends the next day",
+    "linked_jobs": "Use this when candidates must accept all shifts from the job offer",
+    "re_push": "Resend job offer to available candidates"
+  },
+  "main_navbar": {
+    "dashboard":"Dashboard",
+    "jobschedule":"Job Schedule",
+    "billing":"Finance",
+    "clients":"Clients / Locations",
+    "candidates":"Candidates",
+    "documents":"Documents & Compliance",
+    "agency":"Settings",
+    "rates": "Rate Editing",
+    "users": "Internal Users",
+    "reporting": "Reporting",
+    "absenceOverview": "Absences Overview"
+  },
+  "rate_editing": {
+    "hourly_switch": "Hourly margin",
+    "daily_switch": "Daily margin"
+  },
+  "settings": {
+    "attributes": "Add at least one value in order to use this attribute to submit jobs"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "agency_details": "Unternehmensdetails",
+  "billing_details": "Rechnungsdetails",
+  "select_label": "Wählen Sie Ihre Filiale aus",
+  "agency_name": "Unternehmensname",
+  "central_postcode": "Zentrale PLZ",
+  "central_address": "Zentrale Anschrift",
+  "city": "Stadt",
+  "main_phone": "Hauptrufnummer",
+  "next": "NÃ¤chste",
+  "previous": "Vorherige",
+  "save_cont": "Speichern",
+  "logout": "Abmelden",
+  "billing_postcode": "PLZ Abrechnungszentrale",
+  "billing_address": "Adresse der Abrechnungszentrale",
+  "billing_phone": "Hauptrufnummer der Abrechnungszentrale",
+  "toast_success": "Aktualisierung der Profildaten."
+}

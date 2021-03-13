@@ -1,0 +1,17 @@
+{
+  "filter_tab_0": "Dokumenteneinstellungen",
+  "filter_tab_1": "Dokumente der Mitarbeiter",
+  "filter_tab_2": "Dokumente Überprüfen",
+  "settings_column_0": "Dokumentenname",
+  "settings_column_1": "Erforderlich",
+  "settings_column_2": "Ablaufdatum",
+  "settings_column_3": "Ablauffrist in Tagen",
+  "candidates_column_0": "Mitarbeiter",
+  "candidates_column_1": "Hochladen",
+  "candidates_column_2": "Datum",
+  "inspect_column_0": "Dokumentenname",
+  "inspect_column_1": "Mitarbeiter",
+  "inspect_column_2": "Verfallsdatum",
+  "list_group_0": "Erforderlich",
+  "list_group_1": "Optional"
+}

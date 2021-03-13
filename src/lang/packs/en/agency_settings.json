@@ -1,0 +1,18 @@
+{
+  "agency_details": "Agency Details",
+  "billing_details": "Billing Details",
+  "select_label": "Pick your subagency",
+  "agency_name": "Agency name",
+  "central_postcode": "Central postcode",
+  "central_address": "Central address",
+  "city": "City",
+  "main_phone": "Main phone number",
+  "next": "Next",
+  "previous": "Previous",
+  "save_cont": "Save & Continue",
+  "logout": "Logout",
+  "billing_postcode": "Billing central postcode",
+  "billing_address": "Billing central address",
+  "billing_phone": "Billing main phone number",
+  "toast_success": "Agency profile data updated."
+}

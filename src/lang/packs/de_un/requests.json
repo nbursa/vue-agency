@@ -1,0 +1,14 @@
+{
+  "table_column_0": "ID",
+  "table_column_1": "Erstellt am",
+  "table_column_2": "Abwesenheitsgrund",
+  "table_column_3": "Name",
+  "filter_tab_0": "Mitarbeiter",
+  "filter_tab_1": "Anfragen",
+  "holiday": "Urlaub",
+  "sick_leave": "Krankheitsbedingte Fehlzeit",
+  "unavailable": "Nicht Erhältlich",
+  "switch_message": "Abwesenheitsgrund",
+  "default_title": "Unter der Registerkarte Abwesenheit haben Sie alle eingegangenen Anfragen zu Krankheit, Urlaub oder Nichtverfügbarkeit.",
+  "default_text": "Auf dieser Seite können Sie alle Aktivitäten durchsuchen, die Details ansehen und verwalten."
+}

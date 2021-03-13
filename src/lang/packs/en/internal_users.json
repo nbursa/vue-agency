@@ -1,0 +1,9 @@
+{
+  "table_column_0": "ID",
+  "table_column_1": "Name",
+  "table_column_2": "Email",
+  "table_column_3": "Mobile phone",
+  "table_column_4": "Role",
+  "filter_advanced_0": "Role",
+  "filter_advanced_1": "Branch"
+}

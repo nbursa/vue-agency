@@ -1,0 +1,31 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "pwdagain": "Password again",
+  "newpwd": "Enter your new password",
+  "pwdverbose": "Enter your password again",
+  "choosenew": "Choose your new password",
+  "forgotpwd": "Forgot Password?",
+  "login": "Sign in",
+  "aboutus": "About us",
+  "terms": "Terms and Conditions",
+  "faq": "FAQ",
+  "help": "Help",
+  "subtitle": "Work better",
+  "resetsubtitle": "Having trouble signing in?",
+  "resettext": "Enter your email and you will receive a new password in your inbox.",
+  "resetlabel": "Enter your username or email and you will receive a new password in your inbox.",
+  "send": "Send",
+  "reset": "Reset Password",
+  "entercodetxt": "We have sent a 6 digit code to your phone.",
+  "entercode": "Enter code",
+  "rememberme": "Remember me",
+  "didentget": "Didn't get the code?",
+  "resend": "Resend",
+  "accept": "Accept",
+  "inviteModal": {
+    "text": "You can now download the Realday app on the store.",
+    "appstore": "View on Apple App Store",
+    "playstore": "View on Google Play Store"
+  }
+}

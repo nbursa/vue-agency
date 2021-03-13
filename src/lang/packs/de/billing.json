@@ -1,0 +1,22 @@
+{
+  "filters_tab_0": "Schichten",
+  "filters_tab_1": "Rechnungen",
+  "filters_advanced_client": "Kunden und Einsatzorte",
+  "shifts_column_0": "ID",
+  "shifts_column_1": "Datum",
+  "shifts_column_2": "Schichtzeiten",
+  "shifts_column_3": "Einsatzorte/Kunde",
+  "shifts_column_4": "Kandidaten",
+  "invoices_column_0":"ID",
+  "invoices_column_1": "Erstellt am",
+  "invoices_column_2": "Bis",
+  "invoices_column_3": "Kunde",
+  "invoices_column_4": "Rechnungsnummer",
+  "invoices_column_5": "Anzahl der Jobs",
+  "date_today": "Heute",
+  "empty_msg": "Bitte wählen Sie einen Kunden oder Einsatzorte aus, um die zugehörigen Rechnungen anzuzeigen.",
+  "date_tomorrow": "Morgen",
+  "date_this_week": "Diese Woche",
+  "date_next_week": "Nächste Woche",
+  "create_invoice": "Rechnung erstellen?"
+}

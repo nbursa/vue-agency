@@ -1,0 +1,14 @@
+{
+  "jobId": "Category ID",
+  "jobStatus": "Category Status",
+  "date": "Date",
+  "timeFrom": "Time - From",
+  "timeTo": "Time - To",
+  "totalTime": "Total Time",
+  "candidate": "Candidate",
+  "client": "Client/Location",
+  "jobType": "Category",
+  "cancelLabel": "Do you want to",
+  "cancelButton": "cancel this category?",
+  "signOff": "Sign Off"
+}

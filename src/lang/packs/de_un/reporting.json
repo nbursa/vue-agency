@@ -1,0 +1,91 @@
+{
+  "title": "Berichte",
+  "report_0": {"title": "Arbeitsstunden pro Kandidat", "description": "Liste der Arbeitsstunden der Kandidaten."},
+  "report_1": {"title": "Schichtübersicht", "description": "Auslistung aller Schichten." },
+  "report_2": {"title": "Abwesenheiten", "description": "Übersicht aller Urlaubs- und Krankheitstage der Kandidaten"},
+  "report_3": {"title": "Kandidaten-Aktivität", "description": "Übersicht über alle aktiven Tage des Kandidaten"},
+  "report_4": {"title": "Arbeitsprotokoll", "description": "Übersicht über die gesamte Arbeitserfahrung der Bewerber"},
+  "sidebar_desc": "Sie können Berichte erstellen, indem Sie auf den Bericht klicken, den Sie erstellen möchten, einen Datumsbereich auswählen und dann alle anderen spezifischen Filter auswählen. Sie können den Bericht dann entweder herunterladen oder auf dem Bildschirm ansehen.",
+  "hours_table": {
+    "col_0": "Kandidaten ID",
+    "col_1": "Kandidatenname",
+    "col_2": "Arbeitsstunden"
+  },
+  "jobs_table": {
+    "col_0": "Kategorien",
+    "col_1": "Kandidatenname",
+    "col_2": "Kunde",
+    "col_3": "Standorte",
+    "col_4": "Zeit",
+    "col_5": "Datum",
+    "col_6": "ID",
+    "col_7": "Status"
+  },
+  "inactivity_table": {
+    "col_0": "Name",
+    "col_1": "Date",
+    "col_2": "Urlaub",
+    "col_3": "Krank",
+    "col_4": "Nicht verfügbar",
+    "col_5": "Gesamt"
+  },
+  "activity_table": {
+    "col_0": "Name",
+    "col_1": "Anzahl der Jobs",
+    "col_2": "Geleistete Arbeitsstunden",
+    "col_3": "Bezüge ",
+    "col_4": "Tage gearbeitet"
+  },
+  "worklog_table": {
+    "col_0": "Kandidatenname",
+    "col_1": "Kunde",
+    "col_2": "Geleistete Arbeitsstunden",
+    "col_3": "Stundensatz",
+    "col_4": "Stundenlohn",
+    "col_5": "Kategorien",
+    "col_6": "Verdienste"
+  },
+  "payroll": {
+    "job_id": "Job-ID",
+    "start_time": "Startzeit",
+    "payroll_id": "Kandidaten-Gehaltsabrechnungs-ID",
+    "name": "Name des Kandidaten",
+    "title": "Job Titel",
+    "job_name": "Job Name",
+    "quantity": "Menge",
+    "unit": "Einheit - Stunden / Tage",
+    "payrate": "Lohnsatz",
+    "total": "Gesamt"
+  },
+  "reportFileName": {
+    "hoursWorked": "abgearbeitete Stunden pro Kandidat",
+    "jobsList": "Schichtübersicht",
+    "candidateInactivity": "Kandidaten-Inaktivität",
+    "candidateActivity": "Kandidaten-Aktivität",
+    "workUtilization": "Arbeitszeitauslastung",
+    "candidateWorkLog": "Arbeitsprotokoll"
+  },
+  "from": "Von",
+  "to": "Bis",
+  "filter_0": "Kategorien auswählen",
+  "filter_1": "Gehaltsstufe wählen",
+  "filter_2": "Kunden wählen",
+  "filter_3": "Attribute wählen",
+  "filter_4": "Standort wählen",
+  "filter_5": "Status wählen",
+  "filter_6": "Kandidat wählen",
+  "file_name_1": "Arbeitsstunden pro Kandidat",
+  "button_pdf": "PDF-Datei exportieren",
+  "button_csv": "Export CSV-Datei exportieren",
+  "button_filter_workHours": "Kandidaten filtern",
+  "button_filter_jobs": "Schichten filtern",
+  "title_page": "Bericht",
+  "columns_placeholder": "In Tabelle anzeigen",
+  "payrol_id": "ID der Gehaltsabrechnung des Kandidaten",
+  "times": "Start/Endzeit des Jobs",
+  "attributes": "Attribute",
+  "note": "Hinweis",
+  "job_type": "Kategorien",
+  "break_time": "Pause",
+  "client_name": "Kunde"
+}

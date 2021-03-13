@@ -1,0 +1,20 @@
+{
+  "label_type": "Request type",
+  "label_from": "From",
+  "label_to": "To",
+  "label_note": "Add note",
+  "placeholder_note": "Note",
+  "button_reject": "Reject",
+  "button_approve": "Approve",
+  "button_ack": "Acknowledge",
+  "ack_label": "Acknowledge Leave?",
+  "aprove_label": "Approve Holiday?",
+  "type_sick": "Sick leave",
+  "type_holiday": "Holiday",
+  "type_unavailable": "Unavailable",
+  "toast_approved": "approved",
+  "toast_rejected": "rejected",
+  "toast_acknowledged": "acknowledged",
+  "toast_error": "There was an error, please try again!",
+  "note": "'s note:"
+}

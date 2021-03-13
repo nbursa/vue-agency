@@ -1,0 +1,93 @@
+{
+  "title": "Reports",
+  "report_0": {"title": "Hours worked by candidate", "description": "Lists all hours worked by candidates."},
+  "report_1": {"title": "List Jobs", "description": "List all existing jobs." },
+  "report_2": {"title": "Candidate inactivity", "description": "Overview of all days a candidate has been ill or on holiday"},
+  "report_3": {"title": "Candidate activity", "description": "Overview of all days a candidate has been active on a job"},
+  "report_4": {"title": "Candidate work log", "description": "Overview of all candidate work history"},
+  "report_payroll": "Payrolls",
+  "report_payroll_card": "Payrolls list",
+  "sidebar_desc": "You can generate reports by clicking on the report that you’d like to create, selecting a date range, and then any other specific filters. You can then either download the report, or view it on screen.",
+  "hours_table": {
+    "col_0": "Candidate ID",
+    "col_1": "Candidate Name",
+    "col_2": "Hours worked"
+  },
+  "jobs_table": {
+    "col_0": "Category",
+    "col_1": "Candidate name",
+    "col_2": "Client",
+    "col_3": "Branch",
+    "col_4": "Time",
+    "col_5": "Date",
+    "col_6": "ID",
+    "col_7": "Status"
+  },
+  "inactivity_table": {
+    "col_0": "Name",
+    "col_1": "Date",
+    "col_2": "Holidays",
+    "col_3": "Sick leaves",
+    "col_4": "Unavailable",
+    "col_5": "Total"
+  },
+  "activity_table": {
+    "col_0": "Name",
+    "col_1": "Jobs Count",
+    "col_2": "Hours worked",
+    "col_3": "Earnings",
+    "col_4": "Days worked"
+  },
+  "worklog_table": {
+    "col_0": "Candidate Name",
+    "col_1": "Client",
+    "col_2": "Hours worked",
+    "col_3": "Hourly rate",
+    "col_4": "Hourly charge rate",
+    "col_5": "Category",
+    "col_6": "Earnings"
+  },
+  "payroll": {
+    "job_id": "Job Id",
+    "start_time": "Start Time",
+    "payroll_id": "Candidate Payroll Id",
+    "name": "Candidate Name",
+    "title": "Job Title",
+    "job_name": "Job Name",
+    "quantity": "Quantity",
+    "unit": "Unit - Hours/Days",
+    "payrate": "Payrate",
+    "total": "Total"
+  },
+  "reportFileName": {
+    "hoursWorked": "Hours worked by candidate",
+    "jobsList": "Jobs overview",
+    "candidateInactivity": "Candidate inactivity",
+    "candidateActivity": "Candidate activity",
+    "workUtilization": "Work hours utilization",
+    "candidateWorkLog": "Work log"
+  },
+  "from": "From",
+  "to": "To",
+  "filter_0": "Select categories",
+  "filter_1": "Select grades",
+  "filter_2": "Select clients",
+  "filter_3": "Select attributes",
+  "filter_4": "Select branch",
+  "filter_5": "Select status",
+  "filter_6": "Select candidates",
+  "file_name_1": "Hours worked by candidate",
+  "button_pdf": "Export PDF",
+  "button_csv": "Export CSV",
+  "button_filter_workHours": "Filter Candidates",
+  "button_filter_jobs": "Filter Jobs",
+  "title_page": "Reporting",
+  "columns_placeholder": "Show in table",
+  "payrol_id": "Candidate payroll id",
+  "times": "Job start/end time",
+  "attributes": "Attributes",
+  "note": "Note",
+  "job_type": "Category",
+  "break_time": "Break Time",
+  "client_name": "Client"
+}

@@ -1,0 +1,15 @@
+{
+  "table_column_0": "ID",
+  "table_column_1": "Name",
+  "table_column_2": "E-Mail",
+  "table_column_3": "Handynummer",
+  "table_column_4": "Aktionen",
+  "filter_tab_0": "Mitarbeiter",
+  "filter_tab_1": "Abwesenheit",
+  "filter_tab_3": "Candidate Pools",
+  "drawer_filter_job": "Kategorie",
+  "drawer_filter_branch": "Zweig",
+  "profile_link": "Details",
+  "status_verified": "Nur verifizierte anzeigen",
+  "status_unverified": "Nur ungeprüfte anzeigen"
+}

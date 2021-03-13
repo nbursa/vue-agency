@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sick-leave-Approved" transform="translate(-193.000000, -419.000000)" stroke="#4A82FF" stroke-width="2">
+            <g id="Group-2" transform="translate(207.772969, 429.474132) rotate(-20.000000) translate(-207.772969, -429.474132) translate(193.772969, 415.974132)">
+                <path d="M26,16 C26,9.372583 20.627417,4 14,4 C7.372583,4 2,9.372583 2,16 L26,16 Z" id="Oval-5-Copy-2" stroke-linecap="round" stroke-linejoin="round" transform="translate(14.000000, 10.000000) rotate(20.000000) translate(-14.000000, -10.000000) "></path>
+                <path d="M11.5876082,16.2605368 L7.91347242,26.4649363" id="Path-8-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M17.2658952,17.3774158 C19.4594334,11.7268901 19.2731004,7.51889522 16.7068961,4.75343128" id="Path-2"></path>
+                <path d="M7.37831799,13.5046886 C9.43624751,7.62889951 12.2795685,4.56436577 15.9082809,4.31108736" id="Path-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

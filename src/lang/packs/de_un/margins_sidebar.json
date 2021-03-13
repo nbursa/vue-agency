@@ -1,0 +1,13 @@
+{
+  "header": "Margen filtern und aktualisieren",
+  "filter_label": "Auswahlkriterien",
+  "calculator_label": "Marge auswählen",
+  "converter_label": "Tarif oder Gesamtentgelt eingeben",
+  "rate": "Satz",
+  "charge": "Gebühr",
+  "view": "Sondermargen anzeigen",
+  "action_button_0": "Zurücksetzen",
+  "action_button_1": "Filtern",
+  "action_button_2": "Aktualisieren",
+  "remove_button": "Rate Löschen"
+}

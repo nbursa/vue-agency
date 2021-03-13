@@ -1,0 +1,20 @@
+{
+  "label_type": "Art der Anfrage",
+  "label_from": "von",
+  "label_to": "bis",
+  "label_note": "Anmerkung hinzufügen",
+  "placeholder_note": "Anmerkung",
+  "button_reject": "Ablehnen",
+  "button_approve": "Genehmigen",
+  "button_ack": "Bestätigen",
+  "ack_label": "Urlaub bestätigen?",
+  "aprove_label": "Krankmeldung bestätigen?",
+  "type_sick": "Krankmeldungen",
+  "type_holiday": "Urlaub",
+  "type_unavailable": "Nicht Erhältlich",
+  "toast_approved": "genehmigt",
+  "toast_rejected": "abgelehnt",
+  "toast_acknowledged": "bestätigt",
+  "toast_error": "Fehlermeldung. Bitte versuchen Sie es erneut!",
+  "note": " notiz:"
+}

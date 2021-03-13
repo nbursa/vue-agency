@@ -1,0 +1,11 @@
+/* eslint-disable */
+require('./agency-structure')
+require('./billing-finance')
+require('./calendar')
+require('./candidates')
+require('./clients-location')
+require('./dashboard')
+require('./doc-compliance')
+require('./internal-users')
+require('./rate-editing')
+require('./reporting')

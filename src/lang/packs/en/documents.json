@@ -1,0 +1,17 @@
+{
+  "filter_tab_0": "Documents settings",
+  "filter_tab_1": "Documents by candidate",
+  "filter_tab_2": "Inspect uploaded documents",
+  "settings_column_0": "Document name",
+  "settings_column_1": "Is required?",
+  "settings_column_2": "Has expiry",
+  "settings_column_3": "Expiration (days)",
+  "candidates_column_0": "Candidate",
+  "candidates_column_1": "Uploaded",
+  "candidates_column_2": "Expiry date",
+  "inspect_column_0": "Document name",
+  "inspect_column_1": "Candidate",
+  "inspect_column_2": "Date",
+  "list_group_0": "Required",
+  "list_group_1": "Optional"
+}

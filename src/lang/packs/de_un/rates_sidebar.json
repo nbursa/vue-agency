@@ -1,0 +1,17 @@
+{
+  "header": "Filtern und aktualisieren Sie Ihre Vergütungssätze",
+  "day_type": "Kalendertag",
+  "shift_time": "Schichtzeit",
+  "job_type": "Kategorie",
+  "area": "Gebiet",
+  "grade": "Gehaltsstufe",
+  "client": "Kunde",
+  "hourly_rate": "Stundensatz",
+  "daily_rate": "Tagessatz",
+  "button_reset": "zurücksetzen",
+  "button_filter": "Filtern",
+  "button_update": "Aktualisieren",
+  "button_publish": "Veröffentlichen",
+  "cal_label": "Legen Sie die Aktivierungszeit der Vergütungssätze fest",
+  "submit_err": "Sowohl Stunden- als auch Tagessätze müssen zur Aktualisierung eingereicht werden! "
+}
