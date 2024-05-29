@@ -207,7 +207,6 @@ export default {
   mounted() {
     if (window.location.host) {
       let subdomain = window.location.host.split(".")[0]
-      // let subdomain = "chord"
       if (subdomain && subdomain !== 'localhost:8080' && subdomain !== 'portaldv' && subdomain !== 'portal') {
         this.checkSubdomain(subdomain)
       }

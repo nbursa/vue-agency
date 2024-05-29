@@ -13,7 +13,6 @@ import { Can } from '@casl/vue'
 
 import { GeneralHelpers } from '@/plugins'
 
-// Intercom chat
 import VueIntercom from 'vue-intercom'
 Vue.use(VueIntercom, { appId: 'bbw9tmmo' })
 
@@ -37,28 +36,23 @@ Vue.config.productionTip = false
 
 Vue.mixin(addIncludes)
 
-//Vuebar scrollbar
 import Vuebar from 'vuebar'
 Vue.use(Vuebar)
 
-/* Easier logging in browser console window */
 import { log } from './utils/debugging'
 
 import Notifications from 'vue-notification'
 Vue.use(Notifications)
 
-/* Layout helper */
 import { VueExtendLayout, layout } from 'vue-extend-layout'
 Vue.use(VueExtendLayout)
 
-/* Tooltips */
 import VTooltip from 'v-tooltip'
 require('./assets/styles/global/tooltip.scss')
 const vTooltipOptions = { defaultTrigger: 'hover' }
 VTooltip.enabled = window.screen.width > 1030
 Vue.use(VTooltip)
 
-/* Validation */
 import VeeValidate from 'vee-validate'
 Vue.use(VeeValidate, {
   inject: false,
